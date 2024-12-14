@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background {
+    background-color: aliceblue;
+    height: 100%;
+}
+.heading{
+    background-color: black !important;
+    color: white;
+    text-align: center;
+}
+.searchContainer {
+    position: relative;
+    max-width: 500px;
+    margin: 20px auto;
+
+}
+
+.inputBar{
+   
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #333;
+    border-radius: 30px;
+    color:black; 
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.searchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;  /* Space between input and button */
+    background-color: #1db954; /* Spotify green */
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.searchButton:hover {
+    background-color: #1ed760; /* Slightly lighter green */
+    box-shadow: 0 0 8px rgba(29, 185, 84, 0.6); /* Green glow effect */
+}
+.searchButton:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(29, 185, 84, 0.6); /* Green glow */
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #6363de;
+}
+
+.box1{
+
+    margin: 10px ;
+    width: 40%;
+    max-width: 400px;
+    height: fit-content;
+    
+}
+
+.box2 {
+    margin: 10px ;
+    max-width: 400px;
+    width: 40%;
+    margin: 0px 40px;
+
+}
+
+.input2{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    color:black; 
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    margin: 0px auto;
+}
+ul{
+    list-style: none;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 2px auto;
+    border:  3px solid grey;
+}
+
+.plusButton {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    color: white;
+    background-color: #007bff; /* Blue background */
+    border: none;
+    border-radius: 50%; /* Circular shape */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.plusButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.1); /* Slightly enlarge the button */
+}
+.plusButton:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.6); /* Blue glow on focus */
+}
+
