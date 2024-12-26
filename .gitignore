@@ -1,0 +1,4 @@
+# installed node packages
+node_modules
+# mac files
+.DS_Store
